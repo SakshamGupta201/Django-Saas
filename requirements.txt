@@ -1,4 +1,4 @@
 Django>=5.0,<5.2
 Pillow
-decouple
+python-decouple
 gunicorn
