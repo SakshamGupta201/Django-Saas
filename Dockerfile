@@ -16,7 +16,7 @@ RUN pip install --upgrade pip
 RUN pip install -r requirements.txt
 
 # Copy the rest of the application code into the container
-COPY . /app/
+COPY src /app/
 
 # Copy the entrypoint script into the container
 COPY entrypoint.sh /app/
